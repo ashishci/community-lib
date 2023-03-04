@@ -21,6 +21,6 @@
     "sourceMap": true,
     "composite": true
   },
-  "include": ["src/**/*.ts", "package.json"],
+  "include": ["lib/**/*.ts", "package.json"],
   "exclude": ["node_modules", "**/*spec.ts"]
 }

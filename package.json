@@ -7,6 +7,9 @@
   "author": "Ash Chatterjee <ashish@ashishc.io>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "eslint --ignore-path .eslintignore --ext \"lib/*.ts\""
+  },
   "dependencies": {
     "app-root-path": "^3.1.0",
     "dotenv": "^16.0.3",
