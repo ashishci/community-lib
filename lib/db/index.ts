@@ -1,6 +1,6 @@
 import { Pool, PoolConfig } from 'pg'
 
-import { LoggerPartial } from '../interfaces'
+import { LoggerPartial } from '../../interfaces'
 
 export const connectDb = async (
   sql: string,

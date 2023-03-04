@@ -6,7 +6,7 @@
     "emitDecoratorMetadata": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "types": ["node"],
+    "types": ["node", "jest"],
     "resolveJsonModule": true,
     "allowJs": true,
     "outDir": "./dist",
@@ -21,6 +21,6 @@
     "sourceMap": true,
     "composite": true
   },
-  "include": ["lib/**/*.ts", "package.json"],
-  "exclude": ["node_modules", "**/*spec.ts"]
+  "include": ["**/*.ts", "package.json"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
