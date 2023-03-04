@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore --ext \"lib/*.ts\"",
     "format": "prettier --ignore-path .gitignore --write \"lib/**/*.+(js|ts|json)\"",
+    "lint:format": "yarn lint && yarn format",
     "test": "yarn lint:format && jest"
   },
   "dependencies": {
